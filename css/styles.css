@@ -3,6 +3,7 @@ body {
   text-align: center;
   color: whitesmoke;
 }
+
 * {
   text-align: initial;
 }
@@ -31,6 +32,10 @@ h1, h2 {
   text-align: initial;
 }
 
+h3 {
+  font-size: 1rem;
+}
+
 .footer {
   display: block;
   text-align: center;
@@ -44,12 +49,27 @@ h2 {
   margin: .2em -8px ;
 }
 
+p {
+  background-color: rgb(0, 92, 128);
+  margin: -8px;
+  padding:  .1em 2em;
+  line-height: 1.8em;
+}
+
 a {
-  color: rgba(57, 152, 235, 0.85);
+  color: rgba(240, 248, 255, 0.85);
 }
 
 a:visited { 
-  color: rgb(52, 214, 255);
+  color: rgb(130, 154, 200);
+}
+
+li {
+  transition: .25s linear;
+}
+
+li:has(a):hover {
+  transform: translateX(.5rem);
 }
 
 li a {
@@ -60,7 +80,7 @@ li a:hover {
   color: rgb(240, 248, 255);
 }
 li a:visited { 
-  color: rgb(0, 24, 70);
+  color: rgb(150, 174, 220);
 }
 
 ul {
@@ -77,20 +97,23 @@ ol p {
 
 
 img {
+  box-sizing: border-box;
+  display: block;
   background-color: aliceblue;
-  height: 480px;
+  max-height: 480px;
   width: auto;
   border: 5px solid black;
+  margin: auto;
   padding: 5px;
 }
 
-p {
-  background-color: rgb(0, 92, 128);
-  margin: -8px;
-  padding:  .1em 2em;
-  line-height: 1.8em;
-}
 
 ol p {
   background-color: transparent;
+}
+
+main {
+  margin: 16px;
+  padding: 16px;
+ background-image: linear-gradient(#00000060, #00000060);
 }
