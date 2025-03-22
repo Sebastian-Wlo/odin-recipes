@@ -102,6 +102,7 @@ img {
   background-color: aliceblue;
   max-height: 480px;
   width: auto;
+  max-width: 100%;
   border: 5px solid black;
   margin: auto;
   padding: 5px;
