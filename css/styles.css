@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(38, 126, 202);
+  text-align: center;
+  color: whitesmoke;
+}
+* {
+  text-align: initial;
+}
+
+h1, h2, .footer {
+  background-color: rgb(8, 68, 121);
+  padding-top: .2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  margin-top: -.5rem;
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+}
+
+h1, h2 {
+  
+  border-bottom: 4px solid whitesmoke;
+  padding-bottom: 0;
+
+  margin-bottom: 1rem;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.4em;
+
+  text-align: initial;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  border-top: 4px solid whitesmoke;
+  padding-bottom: 1rem;
+  margin-bottom: -5rem;
+}
+
+h2 {
+  font-size: 2em;
+  margin: .2em -8px ;
+}
+
+a {
+  color: rgba(57, 152, 235, 0.85);
+}
+
+a:visited { 
+  color: rgb(52, 214, 255);
+}
+
+li a {
+  color: rgba(240, 248, 255, 0.85);
+}
+
+li a:hover {
+  color: rgb(240, 248, 255);
+}
+li a:visited { 
+  color: rgb(0, 24, 70);
+}
+
+ul {
+  list-style: none;
+  padding-left: 1.2em;
+}
+
+ol {
+  padding-left: 2em;
+}
+ol p {
+  padding-left: 1em;
+}
+
+
+img {
+  background-color: aliceblue;
+  height: 480px;
+  width: auto;
+  border: 5px solid black;
+  padding: 5px;
+}
+
+p {
+  background-color: rgb(0, 92, 128);
+  margin: -8px;
+  padding:  .1em 2em;
+  line-height: 1.8em;
+}
+
+ol p {
+  background-color: transparent;
+}
